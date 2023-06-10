@@ -1,105 +1,156 @@
 {
-    "events": [
-        {
-            "id": 1,
-            "title": "Event 1",
-            "description": "File-system based routing has been a core feature of Next.js.There was nothing additional to configure. Drop a file inside pages and the Next.js router would take care of the rest. We still love this simplicity with routing. But as usage of the framework grew, so have the types of interfaces developers are looking to build with it.<br/><br/>Developers have asked for improved support for defining layouts, nesting pieces of UI as layouts, and having more flexibility over defining loading and error states. This wasn't an easy thing to retrofit into the existing Next.js router.<br/><br/>Every part of the framework has to be designed around the router. Page transitions, data fetching, caching, mutating and revalidating data, streaming, styling content, and more.",
-            "category": "sports",
-            "date": "Apr 23"
-        },
-        {
-            "id": 2,
-            "title": "Event 2",
-            "description": "Description 2",
-            "category": "technology",
-            "date": "May 25"
-        },
-        {
-            "id": 3,
-            "title": "Event 3",
-            "description": "Description 3",
-            "category": "food",
-            "date": "Oct 20"
-        },
-        {
-            "id": 4,
-            "title": "Event 4",
-            "description": "Description 4",
-            "category": "sports",
-            "date": "Aug 20"
-        },
-        {
-            "id": 5,
-            "title": "Event 5",
-            "description": "Description 5",
-            "category": "sports",
-            "date": "Sep 20"
-        }
-    ],
-    "dashboard": {
-        "posts": 5,
-        "likes": 150,
-        "followers": 20,
-        "following": 50
+  "events": [
+    {
+      "id": 1,
+      "title": "Event 1",
+      "description": "File-system based routing has been a core feature of Next.js.There was nothing additional to configure. Drop a file inside pages and the Next.js router would take care of the rest. We still love this simplicity with routing. But as usage of the framework grew, so have the types of interfaces developers are looking to build with it.<br/><br/>Developers have asked for improved support for defining layouts, nesting pieces of UI as layouts, and having more flexibility over defining loading and error states. This wasn't an easy thing to retrofit into the existing Next.js router.<br/><br/>Every part of the framework has to be designed around the router. Page transitions, data fetching, caching, mutating and revalidating data, streaming, styling content, and more.",
+      "category": "sports",
+      "date": "Apr 23"
     },
-    "news": [
-        {
-            "id": 1,
-            "title": "News Article 1",
-            "description": "Description 1",
-            "category": "sports"
-        },
-        {
-            "id": 2,
-            "title": "News Article 2",
-            "description": "Description 2",
-            "category": "politics"
-        },
-        {
-            "id": 3,
-            "title": "News Article 3",
-            "description": "Description 3",
-            "category": "sports"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "title":"Product 1",
-            "price": 1000,
-            "description": "Description 1"
-        },
-        {
-            "id": 2,
-            "title":"Product 2",
-            "price": 2000,
-            "description": "Description 2"
-        },
-        {
-            "id": 3,
-            "title":"Product 3",
-            "price": 3000,
-            "description": "Description 3"
-        },
-        {
-            "id": 4,
-            "title":"Product 4",
-            "price": 4000,
-            "description": "Description 4"
-        },
-        {
-            "id": 5,
-            "title":"Product 5",
-            "price": 5000,
-            "description": "Description 5"
-        }
-    ],
-    "blogs" : [
-        { 
-            "id": 1,
-            "title": "",
-            "content": "File-system based routing has been a core feature of Next.js.There was nothing additional to configure. Drop a file inside pages/ and the Next.js router would take care of the rest. We still love this simplicity with routing. But as usage of the framework grew, so have the types of interfaces developers are looking to build with it.\\n\\nDevelopers have asked for improved support for defining layouts, nesting pieces of UI as layouts, and having more flexibility over defining loading and error states. This wasn't an easy thing to retrofit into the existing Next.js router.\\n\\nEvery part of the framework has to be designed around the router. Page transitions, data fetching, caching, mutating and revalidating data, streaming, styling content, and more.",
-            "date" : "5th May 2023" 
-        }
-    ]
+    {
+      "id": 2,
+      "title": "Event 2",
+      "description": "Description 2",
+      "category": "technology",
+      "date": "May 25"
+    },
+    {
+      "id": 3,
+      "title": "Event 3",
+      "description": "Description 3",
+      "category": "food",
+      "date": "Oct 20"
+    },
+    {
+      "id": 4,
+      "title": "Event 4",
+      "description": "Description 4",
+      "category": "sports",
+      "date": "Aug 20"
+    },
+    {
+      "id": 5,
+      "title": "Event 5",
+      "description": "Description 5",
+      "category": "sports",
+      "date": "Sep 20"
+    }
+  ],
+  "dashboard": {
+    "posts": 5,
+    "likes": 150,
+    "followers": 20,
+    "following": 50
+  },
+  "news": [
+    {
+      "id": 1,
+      "title": "News Article 1",
+      "description": "Description 1",
+      "category": "sports"
+    },
+    {
+      "id": 2,
+      "title": "News Article 2",
+      "description": "Description 2",
+      "category": "politics"
+    },
+    {
+      "id": 3,
+      "title": "News Article 3",
+      "description": "Description 3",
+      "category": "sports"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "price": 1000,
+      "description": "Description 1"
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "price": 2000,
+      "description": "Description 2"
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "price": 3000,
+      "description": "Description 3"
+    },
+    {
+      "id": 4,
+      "title": "Product 4",
+      "price": 4000,
+      "description": "Description 4"
+    },
+    {
+      "id": 5,
+      "title": "Product 5",
+      "price": 5000,
+      "description": "Description 5"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "",
+      "content": "File-system based routing has been a core feature of Next.js.There was nothing additional to configure. Drop a file inside pages/ and the Next.js router would take care of the rest. We still love this simplicity with routing. But as usage of the framework grew, so have the types of interfaces developers are looking to build with it.\\n\\nDevelopers have asked for improved support for defining layouts, nesting pieces of UI as layouts, and having more flexibility over defining loading and error states. This wasn't an easy thing to retrofit into the existing Next.js router.\\n\\nEvery part of the framework has to be designed around the router. Page transitions, data fetching, caching, mutating and revalidating data, streaming, styling content, and more.",
+      "date": "5th May 2023"
+    }
+  ],
+  "user": [
+    {
+      "name": "aryan",
+      "username": "raj",
+      "email": "aryan@gmail.com",
+      "phone": "1234567890",
+      "id": 1
+    },
+    {
+      "name": "akash",
+      "username": "akashsingh",
+      "email": "akash@gmail.com",
+      "phone": "98786756564",
+      "id": 2
+    },
+    {
+      "name": "suraj",
+      "username": "suraj123",
+      "email": "suraj@gmail.com",
+      "phone": "9956976967",
+      "id": 3
+    },
+    {
+      "name": "rakesh",
+      "username": "rakesh",
+      "email": "rakesh@gmail.com",
+      "phone": "9579579575",
+      "id": 4
+    },
+    {
+      "name": "vikas",
+      "username": "vikas123",
+      "email": "vikas@gmail.com",
+      "phone": "444444444444",
+      "id": 5
+    },
+    {
+      "id": "6",
+      "name": "Darryl Ng",
+      "username": "darrylng",
+      "email": "darryl1975@hotmail.com",
+      "phone": "+6597304777"
+    },
+    {
+      "id": "7",
+      "name": "Annie Ng",
+      "username": "annie",
+      "email": "annie@hotmail.com",
+      "phone": "98765432"
+    }
+  ]
 }
